@@ -12,7 +12,7 @@ st.title("SARIMA Model Tahmin Uygulaması")
 
 # Kullanıcıdan başlangıç ayı ve yılı al
 st.subheader("Tahmin için başlangıç ayını ve yılını seçin:")
-start_year = st.selectbox("Yıl:", list(range(2000, 2031)), index=24)  # 2024 varsayılan olarak seçili
+start_year = st.selectbox("Yıl:", list(range(2024, 2031)), index=24)  # 2024 varsayılan olarak seçili
 start_month = st.selectbox("Ay:", list(range(1, 13)), index=7)  # Ağustos varsayılan olarak seçili
 
 # Kullanıcıdan girdi al
